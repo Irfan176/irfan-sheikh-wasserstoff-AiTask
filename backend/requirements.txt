@@ -1,0 +1,9 @@
+flask
+fastapi
+transformers
+sentence-transformers
+faiss-cpu
+requests
+python-dotenv
+numpy<2
+datasets

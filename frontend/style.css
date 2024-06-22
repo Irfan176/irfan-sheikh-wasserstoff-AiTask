@@ -1,0 +1,35 @@
+#chatbot {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    height: 400px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+#chatbot-window {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    border-bottom: 1px solid #ccc;
+}
+
+#chatbot-input {
+    padding: 10px;
+    border: none;
+    border-top: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#chatbot-send {
+    padding: 10px;
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
